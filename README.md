@@ -13,10 +13,6 @@ This repository contains a comprehensive analysis and investment tool for the S&
 - **Portfolio Optimization**: Utilizes the Efficient Frontier approach to optimize portfolio weights aimed at achieving maximum Sharpe ratio.
 - **Visualization**: Provides visualizations for clusters and performance comparisons against the market benchmark.
 
-## Installation
-
-Before running the script, ensure you have Python installed along with the following packages:
-
 # Script Breakdown
 
 ## Data Collection
@@ -47,6 +43,9 @@ Before running the script, ensure you have Python installed along with the follo
 
 - **Plot Generation**: Creates several plots to show the distribution of stocks across different clusters and to compare the performance of the optimized portfolio against the S&P 500 index.
 
+## Installation
+
+Before running the script, ensure you have Python installed along with the following packages:
 
 ```bash
 pip install pandas pandas_datareader numpy matplotlib yfinance statsmodels sklearn pandas_ta
