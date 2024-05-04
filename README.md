@@ -21,31 +21,31 @@ Before running the script, ensure you have Python installed along with the follo
 
 ## Data Collection
 
-- **Scrape S&P 500 Companies: The script begins by scraping the list of current S&P 500 companies from Wikipedia.
-- **Fetch Historical Data: Utilizes the yfinance library to retrieve historical stock data for these companies.
+- **Scrape S&P 500 Companies**: The script begins by scraping the list of current S&P 500 companies from Wikipedia.
+- **Fetch Historical Data**: Utilizes the yfinance library to retrieve historical stock data for these companies.
 
 ## Feature Engineering
 
-- **Technical Indicators: Computes various technical indicators for all stocks, such as volatility measures and momentum indicators like RSI, and trend indicators like MACD and Bollinger Bands.
+- **Technical Indicators**: Computes various technical indicators for all stocks, such as volatility measures and momentum indicators like RSI, and trend indicators like MACD and Bollinger Bands.
 
 ## Data Aggregation
 
-- **Monthly Averages & Last-known Values: Calculates monthly averages and captures the last-known values of technical indicators, focusing on the most liquid stocks.
+- **Monthly Averages & Last-known Values**: Calculates monthly averages and captures the last-known values of technical indicators, focusing on the most liquid stocks.
 
 ## Fama-French Factor Integration
 
-- **Market Factors: Integrates market factors using the Fama-French model, aligning these with stock data to analyze sensitivities to different market conditions.
+- **Market Factors**: Integrates market factors using the Fama-French model, aligning these with stock data to analyze sensitivities to different market conditions.
 ## Clustering
 
-- **K-means Clustering: Groups stocks based on similar characteristics using K-means clustering. The initialization of centroids is based on specific RSI levels to guide the clustering towards meaningful investor categories.
+- **K-means Clustering**: Groups stocks based on similar characteristics using K-means clustering. The initialization of centroids is based on specific RSI levels to guide the clustering towards meaningful investor categories.
 
 ## Portfolio Optimization
 
-- **Efficient Frontier: Determines an optimal subset of stocks and allocates capital among them using the Efficient Frontier method to maximize expected returns for a given risk level.
+- **Efficient Frontier**: Determines an optimal subset of stocks and allocates capital among them using the Efficient Frontier method to maximize expected returns for a given risk level.
 
 ## Visualization
 
-- **Plot Generation: Creates several plots to show the distribution of stocks across different clusters and to compare the performance of the optimized portfolio against the S&P 500 index.
+- **Plot Generation**: Creates several plots to show the distribution of stocks across different clusters and to compare the performance of the optimized portfolio against the S&P 500 index.
 
 
 ```bash
